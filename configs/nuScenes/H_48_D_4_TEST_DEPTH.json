@@ -31,11 +31,11 @@
     "test": {
       "batch_size": 1,
       "scale_search": [0.75, 1.0, 1.25, 1.5, 1.75, 2],
-      "mode": "ms_test_depth",
+      "mode": "ss_test",
       "out_dir": "seg_result/cityscapes",
       "data_transformer": {
         "size_mode": "fix_size",
-        "input_size": [1792, 1024],
+        "input_size": [1600, 900],
         "align_method": "only_pad"
       },
       "save_prob": true
